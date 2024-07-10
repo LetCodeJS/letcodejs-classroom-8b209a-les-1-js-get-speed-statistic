@@ -20,7 +20,8 @@ function getSpeedStatistic(testResults) {
   let sum = testResults.reduce((acc, curr) => acc + curr, 0);
   let avgSpeed = Math.floor(sum / testResults.length);
 
-  return [minSpeed, maxSpeed, avgSpeed];
+  // return [minSpeed, maxSpeed, avgSpeed];
+  return [];
 }
 
 module.exports = { getSpeedStatistic };
