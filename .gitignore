@@ -1,0 +1,33 @@
+# Dependency directories
+node_modules/
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Misc
+*.tmp
+*.bak
+*.zip
+*.rar
+*.gz
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
