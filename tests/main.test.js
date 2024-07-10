@@ -2,7 +2,7 @@ describe('Function \'getSpeedStatistic\'', () => {
     let getSpeedStatistic;
   
     beforeAll(() => {
-      getSpeedStatistic = require('./src/main').getSpeedStatistic;
+      getSpeedStatistic = require('../src/main').getSpeedStatistic;
     });
   
     it('should be declared', () => {
